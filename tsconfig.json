@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true, // Without this start getting crazy errors in expo *.d.ts files
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "outDir": "artifacts",
+    //		"rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "lib": [
+      "es7", // array.includes
+      "es2015",
+      "es2017.object",
+      "es2018.promise",
+      "es2019.array" // flatMap and flat, so sexy... ;)
+    ],
+    "types": [
+      "react",
+      "react-native",
+      "jest"
+    ]
+  },
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "exclude": [
+    "android",
+    "App.tsx",
+    "ios",
+    "build",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "784848407984",
+    "firebase_url": "https://expo-repro.firebaseio.com",
+    "project_id": "expo-repro",
+    "storage_bucket": "expo-repro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784848407984:android:0ebb823fa1ad33d08d5a75",
+        "android_client_info": {
+          "package_name": "com.tennisbum.expomcve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784848407984-lfe4904s24ph5qa2q7pupitjmqjh7ni0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzaQkhiTcnkJ-k8LafV4eYfZNXClxZ1kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784848407984-lfe4904s24ph5qa2q7pupitjmqjh7ni0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
