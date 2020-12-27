@@ -1,5 +1,13 @@
 {
   "expo": {
+    "scheme": "exporepro",
+    "userInterfaceStyle": "automatic",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {},
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "name": "expo-mcve",
     "slug": "expo-mcve",
     "version": "1.0.0",
@@ -15,7 +23,9 @@
       "androidMode": "default",
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 30000,
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
     },
     "assetBundlePatterns": [
       "**/*"

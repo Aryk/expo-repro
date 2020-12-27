@@ -8,16 +8,17 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~39.0.2",
-    "expo-av": "~8.6.0",
-    "expo-constants": "~9.2.0",
-    "expo-location": "~9.0.0",
-    "expo-notifications": "~0.7.2",
-    "expo-permissions": "~9.3.0",
-    "expo-task-manager": "~8.5.0",
+    "expo": "^40.0.0",
+    "expo-av": "~8.7.0",
+    "expo-constants": "~9.3.3",
+    "expo-location": "~10.0.0",
+    "expo-notifications": "~0.8.2",
+    "expo-permissions": "~10.0.0",
+    "expo-task-manager": "~8.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-screens": "^2.16.1",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
@@ -25,7 +26,7 @@
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
-    "typescript": "~3.9.5"
+    "typescript": "~4.0.0"
   },
   "private": true
 }
