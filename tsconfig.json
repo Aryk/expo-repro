@@ -3,14 +3,13 @@
     "baseUrl": "./",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true, // Without this start getting crazy errors in expo *.d.ts files
+    "skipLibCheck": true,
     "target": "es2015",
     "module": "es2015",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "react",
     "outDir": "artifacts",
-    //		"rootDir": "src",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
     "preserveConstEnums": true,
@@ -20,11 +19,11 @@
     "noUnusedParameters": false,
     "noUnusedLocals": false,
     "lib": [
-      "es7", // array.includes
+      "es7",
       "es2015",
       "es2017.object",
       "es2018.promise",
-      "es2019.array" // flatMap and flat, so sexy... ;)
+      "es2019.array"
     ],
     "types": [
       "react",
@@ -43,5 +42,6 @@
     "ios",
     "build",
     "node_modules"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
