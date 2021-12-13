@@ -1,6 +1,8 @@
 {
   "expo": {
-    "scheme": "exporepro",
+    "scheme": "highlife",
+    "name": "expo-mcve",
+    "slug": "expo-mcve",
     "userInterfaceStyle": "automatic",
     "primaryColor": "#cccccc",
     "packagerOpts": {},
@@ -8,19 +10,19 @@
       "android",
       "ios"
     ],
-    "name": "expo-mcve",
-    "slug": "expo-mcve",
-    "version": "1.0.0",
+    "version": "1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_json/app-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/app_json/splash-screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "notification": {
       "iosDisplayInForeground": false,
       "androidMode": "default",
+      "icon": "./assets/app_json/android-tray-grayscale-transparent.png",
+      "color": "#007aff"
     },
     "updates": {
       "fallbackToCacheTimeout": 30000,
@@ -28,19 +30,65 @@
       "checkAutomatically": "ON_LOAD"
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/**/*"
     ],
+    "android": {
+      "versionCode": 41,
+      "useNextNotificationsApi": true,
+      "package": "com.tennisbum.expomcve",
+      "config": {
+        "branch": {
+          "apiKey": "<replace me>>"
+        }
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "highlife"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "WRITE_SETTINGS",
+        "VIBRATE",
+        "READ_PHONE_STATE",
+        "com.anddoes.launcher.permission.UPDATE_COUNT",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "com.htc.launcher.permission.READ_SETTINGS",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ]
+    },
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "android": {
-      "useNextNotificationsApi": true,
-      "googleServicesFile": "./google-services.json",
-      "package": "com.tennisbum.expomcve",
-      "versionCode": 1
     }
   }
 }
