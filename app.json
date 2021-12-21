@@ -36,11 +36,6 @@
       "versionCode": 41,
       "useNextNotificationsApi": true,
       "package": "com.tennisbum.expomcve",
-      "config": {
-        "branch": {
-          "apiKey": "<replace me>>"
-        }
-      },
       "intentFilters": [
         {
           "action": "VIEW",
@@ -85,7 +80,8 @@
       ]
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.tribefy.exporepro",
+      "buildNumber": "0.0.5"
     },
     "web": {
       "favicon": "./assets/favicon.png"
